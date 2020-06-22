@@ -1,2 +1,2 @@
-# manueleguiluz.github.io
+# meguiluzo.github.io
 My personal github page
