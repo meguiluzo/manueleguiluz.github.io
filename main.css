@@ -1,0 +1,90 @@
+@import url("https://cdn.maximousblk.now.sh/css/JetBrainsMono.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    background-color: #fff;
+    color: #121212;
+    font-family: JetBrainsMono, monospace;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.hello {
+    font-size: 4vw;
+    padding-bottom: 8vh;
+}
+
+.name {
+    font-size: 5vw;
+    padding-bottom: 8vh;
+}
+
+.intro {
+    font-size: 3vw;
+    padding-bottom: 8vh;
+}
+
+.email {
+    font-size: 2vw;
+    padding-bottom: 8vh;
+}
+
+.social > a {
+    margin-right: 1em;
+    font-size: 1.5vw;
+}
+
+.wrapper {
+    margin: 5vw;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .hello {
+        font-size: 4vh;
+        padding-bottom: 8vw;
+    }
+
+    .name {
+        font-size: 5vh;
+        padding-bottom: 8vw;
+    }
+
+    .intro {
+        font-size: 3vh;
+        padding-bottom: 8vw;
+    }
+
+    .email {
+        font-size: 3vh;
+        padding-bottom: 12vw;
+    }
+
+    .social > a {
+        margin-bottom: 1em;
+        font-size: 2vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper {
+        margin: 5vh;
+    }
+}
+
+.container {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
