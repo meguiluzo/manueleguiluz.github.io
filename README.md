@@ -1,2 +1,9 @@
-# meguiluzo.github.io
-My personal github page
+# meguiluzortiz.github.io
+
+The right amount of minimalism.
+
+## Tech stack
+
+- HTML
+- CSS
+
